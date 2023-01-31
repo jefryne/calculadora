@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 borde rounded position-absolute top-50 start-50 translate-middle bg-calculadora">
+                <div class="row   text-center">
+                  <p class="tamañoLetra"><i><u>calculadora</u></i></p>
+                </div>
+                <div class="row text-end d-flex justify-content-center">
+                    <p class=" sombra2 col-11 borde"><span id="salida2"></span><br><span id="salida"  class="tamañoLetra">0</span></p>
+                  </div>
+                <div class="row borde text-center pt-5 ">
+                    <div class="col-7  tabla">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <p class=" rounded borde bg-dark text-light sombra py-3 btnControlNumero  ">1</p>
+                            </div>
+                            <div class="col-4">
+                                <p class="rounded borde bg-dark text-light sombra py-3 btnControlNumero  ">2</p>
+                            </div>
+                            <div class="col-4">
+                                <p class="rounded borde bg-dark text-light sombra py-3 btnControlNumero  ">3</p>
+                            </div>
+                            <div class="col-4">
+                                <p class=" rounded borde bg-dark text-light sombra py-3 btnControlNumero  ">4</p>
+                            </div>
+                            <div class="col-4">
+                                <p class="rounded borde bg-dark text-light sombra py-3 btnControlNumero  ">5</p>
+                            </div>
+                            <div class="col-4">
+                                <p class="rounded borde bg-dark text-light sombra py-3 btnControlNumero  ">6</p>
+                            </div>
+                            <div class="col-4">
+                                <p class=" rounded borde bg-dark text-light sombra py-3 btnControlNumero  ">7</p>
+                            </div>
+                            <div class="col-4">
+                                <p class="rounded borde bg-dark text-light sombra py-3 btnControlNumero  ">8</p>
+                            </div>
+                            <div class="col-4">
+                                <p class="rounded borde bg-dark text-light sombra py-3 btnControlNumero  ">9</p>
+                            </div>
+                            <div class="col-8">
+                                <p class="rounded borde color-amarillo text-light sombra py-3 btnControlNumero  ">0</p>
+                            </div>
+                            <div class="col-4">
+                                <p class="rounded borde bg-dark text-light sombra py-3 btnControlNumero  ">.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 ">
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="rounded borde color-amarillo text-light sombra py-3 btnControl  ">c</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="rounded borde color-amarillo text-light sombra py-3 btnControl  ">←</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="rounded borde bg-dark text-light sombra py-3  signo  ">*</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="rounded borde bg-dark text-light sombra py-3  signo  ">+</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="col-12">
+                                    <p class="rounded borde bg-dark text-light sombra py-3  signo  ">-</p>
+                                </div>
+                                <div class="col-12">
+                                    <p class="rounded borde bg-dark text-light sombra py-3  signo  ">/</p>
+                                </div>
+        
+                            </div>
+                            <div class="col">
+                                <div class="col">
+                                    <p class="rounded borde bg-danger text-light sombra  py-5 mt-2 btnControl">=</p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="calculadora.js"></script>
+</body>
+</html>
